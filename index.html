@@ -1,0 +1,267 @@
+<!Doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script>
+    document.getElementsByTagName("html")[0].className += " js";
+  </script>
+  <link rel="stylesheet" href="assets/css/style.css">
+
+  <title>ICT 11-3 | Account</title>
+
+  <link rel="icon" type="image/png" href="images/logo.png" />
+  <link rel="canonical" href="https://www.ict11-3.github.io/Account" />
+
+  <link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+
+  <link rel="stylesheet" type="text/css" href="css/util.css">
+  <link rel="stylesheet" type="text/css" href="css/main.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+
+<body>
+  <div id="HomePage" style="display: none;">
+    <header class="cd-main-header js-cd-main-header">
+      <div class="cd-logo-wrapper">
+        <a href="https://ict-11-3.github.io/Home/" class="cd-logo"><img src="assets/img/logo.png" alt="Logo" height="50px" width="50px"></a>
+      </div>
+
+      <div class="cd-search js-cd-search" style="display: none">
+        <input class="reset" type="search" placeholder="Search a student..." style="display: none">
+      </div>
+
+
+      <button class="reset cd-nav-trigger js-cd-nav-trigger" aria-label="Toggle menu"><span></span></button>
+
+      <ul class="cd-nav__list js-cd-nav__list">
+        <li class="cd-nav__item cd-nav__item--has-children cd-nav__item--account js-cd-item--has-children">
+          <a href="#0">
+            <img src="images/user.png" alt="avatar">
+            <span>Account</span>
+          </a>
+
+          <ul class="cd-nav__sub-list">
+            <li class="cd-nav__sub-item"><a onclick="ListToProfilePage()" id="openProfileButton"><i class="fa-solid fa-user"></i>&nbsp;&nbsp;My Profile</a></li>
+            <li class="cd-nav__sub-item"><a onclick="logout()"><i class="fa-solid fa-arrow-right-from-bracket"></i>&nbsp;&nbsp;Logout</a></li>
+          </ul>
+        </li>
+      </ul>
+    </header>
+
+    <main class="cd-main-content">
+      <nav class="cd-side-nav js-cd-side-nav">
+        <ul class="cd-side__list js-cd-side__list">
+          <li class="cd-side__label"><span>Main</span></li>
+          <li class="cd-side__item cd-side__item--has-children cd-side__item--overview js-cd-item--has-children">
+            <a href="#0">Overview</a>
+
+            <ul class="cd-side__sub-list">
+              <li class="cd-side__sub-item"><a href="https://ict-11-3.github.io/Attendance/"><i class="fa-solid fa-calendar-check"></i>&nbsp;&nbsp;&nbsp;Class Attedance</a></li>
+              <li class="cd-side__sub-item"><a href="https://ict-11-3.github.io/Leaderboard/"><i class="fa-solid fa-chart-simple"></i>&nbsp;&nbsp;Attendance Leaderboard</a></li>
+            </ul>
+          </li>
+          <li class="cd-side__item cd-side__item--has-children cd-side__item--notifications cd-side__item--selected js-cd-item--has-children">
+            <ul class="cd-side__sub-list">
+              <li class="cd-side__sub-item">
+
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+
+      <div class="cd-content-wrapper">
+        <div class="text-component text-center" style="text-align: justify" id="">
+
+          <!------- DISPLAY PROFILE PAGE ------>
+
+          <div id="ProfilePage">
+            <div class="ProfileContainer">
+              <div style="text-align: left; margin-left: 2%; display: flex">
+                <p class="fa-solid fa-users"></p>
+                &nbsp;
+                <p>ICT 11-3</p>
+              </div>
+              <img src="images/user.png">
+              <p id="student-name" style="font-weight: bold"></p>
+              <div style="display: flex; justify-content: center;">
+                <p class="fa-solid fa-id-card"></p>
+                &nbsp;
+                <p id="student-id"></p>
+              </div>
+            </div>
+          </div>
+
+          <br>
+          <div style="display: flex">
+            <i class="fa-solid fa-circle-info"></i>
+            <p>&nbsp;&nbsp;Attendance recording officialy commences on the first day of September.</p>
+          </div>
+          <div style="display: flex">
+            <i class="fa-solid fa-circle-info"></i>
+            <p>&nbsp;Class days may be reduced due to class suspensions, holidays, and other unforeseen circumstances.</p>
+          </div>
+          <hr>
+          <i class="fa-solid fa-calendar"><span>&nbsp;2024</span></i>
+
+          <div class="AttendanceCountContainer">
+            <div class="TABLE">
+              <table style="width:100%">
+                <li style="border-left: solid 1px black; border-right: solid 1px black; border-top: solid 1px black; text-align: center;">PERSONAL ATTENDANCE RECORD</li>
+                <tr>
+                  <th>Month</th>
+                  <th><i class="fa-solid fa-check"></i>&nbsp;Present Days</th>
+                  <th><i class="fa-solid fa-xmark"></i>&nbsp;Absent Days</th>
+                </tr>
+                <!--
+                  <tr>
+                    <td>January</td>
+                    <td id="JanPresent"></td>
+                    <td id="JanAbsent"></td>
+                  </tr>
+
+                  <tr>
+                    <td>February</td>
+                    <td id="FebPresent"></td>
+                    <td id="FebAbsent"></td>
+                  </tr>
+
+                  <tr>
+                    <td>March</td>
+                    <td id="MarPresent"></td>
+                    <td id="MarAbsent"></td>
+                  </tr>
+
+                  <tr>
+                    <td>April</td>
+                    <td id="AprPresent"></td>
+                    <td id="AprAbsent"></td>
+                  </tr>
+
+                  <tr>
+                    <td>May</td>
+                    <td id="MayPresent"></td>
+                    <td id="MayAbsent"></td>
+                  </tr>
+
+                  <tr>
+                    <td>June</td>
+                    <td id="JunPresent"></td>
+                    <td id="JunAbsent"></td>
+                  </tr>
+
+                  <tr>
+                    <td>July</td>
+                    <td id="JulPresent"></td>
+                    <td id="JulAbsent"></td>
+                  </tr>
+
+                  <tr>
+                    <td>August</td>
+                    <td id="AugPresent"></td>
+                    <td id="AugAbsent"></td>
+                  </tr>
+                  -->
+                <tr>
+                  <td>September</td>
+                  <td id="SepPresent"></td>
+                  <td id="SepAbsent"></td>
+                </tr>
+
+                <tr>
+                  <td>October</td>
+                  <td id="OctPresent"></td>
+                  <td id="OctAbsent"></td>
+                </tr>
+
+                <tr>
+                  <td>November</td>
+                  <td id="NovPresent"></td>
+                  <td id="NovAbsent"></td>
+                </tr>
+
+                <tr>
+                  <td>December</td>
+                  <td id="DecPresent"></td>
+                  <td id="DecAbsent"></td>
+                </tr>
+
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </main>
+  </div>
+
+  <div id="loginPage" class="limiter">
+    <div class="container-login100">
+      <div class="wrap-login100">
+        <div class="login100-pic js-tilt" data-tilt>
+          <img src="images/pc.png" class="mobile-logo">
+        </div>
+
+        <div class="login100-form validate-form">
+          <img src="images/logo.png" alt="IMG" style="border-radius: 10px; margin-bottom: 20px" width="50px" height="50px">
+          <br>
+          <p class="login100-form-title">
+            STUDENT LOGIN
+          </p>
+
+          <div class="wrap-input100 validate-input">
+            <input class="input100" type="text" name="email" placeholder="Seat Number" id="username">
+            <span class="focus-input100"></span>
+            <span class="symbol-input100">
+              <i class="fa fa-hashtag" aria-hidden="true"></i>
+            </span>
+          </div>
+          <div class="wrap-input100 validate-input" data-validate="Password is required">
+            <input class="input100" type="password" name="pass" placeholder="Password" id="password">
+            <span class="focus-input100"></span>
+            <span class="symbol-input100">
+              <i class="fa fa-lock" aria-hidden="true"></i>
+            </span>
+          </div>
+          <div id="login-error" style="color: red; text-align: center;">
+          </div>
+
+          <div class="container-login100-form-btn">
+            <button class="login100-form-btn" onclick="loadingEffect()">
+              <h id="login-text">LOGIN</h>
+              <div class="lds-ellipsis" style="display: none;" id="load">
+                <div></div>
+                <div></div>
+                <div></div>
+              </div>
+            </button>
+          </div>
+          <br>
+          <div style="width: 100%; height: 20px; border-bottom: 1px solid black; text-align: center">
+            <span style="font-size: 20px; background-color: white; padding-left: 5px; padding-right: 5px">
+              ᴏʀ
+            </span>
+          </div>
+          <br>
+          <a href="home.html">Continue as visitor</a>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <script src="assets/js/util.js"></script>
+  <script src="assets/js/menu-aim.js"></script>
+  <script src="assets/js/main.js"></script>
+  <script src="main.js"></script>
+</body>
+
+</html>

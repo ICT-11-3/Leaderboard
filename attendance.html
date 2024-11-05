@@ -1,0 +1,142 @@
+<!Doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script>
+    document.getElementsByTagName("html")[0].className += " js";
+  </script>
+  <link rel="stylesheet" href="assets/css/style.css">
+
+  <title>ICT 11-3 | Class Attedance </title>
+
+  <link rel="icon" type="image/png" href="images/logo.png" />
+  <link rel="canonical" href="https://www.ict11-3.github.io/class-attendance" />
+
+  <link rel="icon" type="image/png" href="images/icons/favicon.ico" />
+
+  <link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+
+  <link rel="stylesheet" type="text/css" href="css/util.css">
+  <link rel="stylesheet" type="text/css" href="css/main.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+
+<body>
+  <div id="ListPage">
+    <header class="cd-main-header js-cd-main-header">
+      <div class="cd-logo-wrapper">
+        <a href="https://ict-11-3.github.io/Home/" class="cd-logo"><img src="assets/img/logo.png" alt="Logo" height="50px" width="50px"></a>
+      </div>
+
+      <div class="cd-search js-cd-search" style="display: none ">
+        <input class="reset" type="search" placeholder="Search a student..." id="studentSearch">
+      </div>
+
+
+      <button class="reset cd-nav-trigger js-cd-nav-trigger" aria-label="Toggle menu"><span></span></button>
+
+      <ul class="cd-nav__list js-cd-nav__list">
+        <li class="cd-nav__item cd-nav__item--has-children cd-nav__item--account js-cd-item--has-children">
+          <a href="#0">
+            <img src="images/user.png" alt="avatar">
+            <span>Account</span>
+          </a>
+
+          <ul class="cd-nav__sub-list">
+            <li class="cd-nav__sub-item"><a id="openProfileButton" onclick="ListToProfilePage()"><i class="fa-solid fa-user"></i>&nbsp;&nbsp;My Profile</a></li>
+            <li class="cd-nav__sub-item"><a onclick="logout()"><i class="fa-solid fa-arrow-right-from-bracket"></i>&nbsp;&nbsp;Logout</a></li>
+          </ul>
+        </li>
+      </ul>
+    </header>
+
+    <main class="cd-main-content">
+      <nav class="cd-side-nav js-cd-side-nav">
+        <ul class="cd-side__list js-cd-side__list">
+          <li class="cd-side__label"><span>Main</span></li>
+          <li class="cd-side__item cd-side__item--has-children cd-side__item--overview js-cd-item--has-children">
+            <a href="#0">Overview</a>
+
+            <ul class="cd-side__sub-list">
+              <li class="cd-side__sub-item"><a href="https://ict-11-3.github.io/Attendance/"><i class="fa-solid fa-calendar-check"></i>&nbsp;&nbsp;&nbsp;Class Attedance</a></li>
+              <li class="cd-side__sub-item"><a href="https://ict-11-3.github.io/Leaderboard/"><i class="fa-solid fa-chart-simple"></i>&nbsp;&nbsp;Attendance Leaderboard</a></li>
+            </ul>
+          </li>
+          <li class="cd-side__item cd-side__item--has-children cd-side__item--notifications cd-side__item--selected js-cd-item--has-children">
+            <ul class="cd-side__sub-list">
+              <li class="cd-side__sub-item">
+
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <div class="cd-content-wrapper">
+        <div class="text-component "  id="MonthlyAttendanceText">
+          <!---- DISPLAY ATTENDANCE PAGE ---->
+
+          <div style="text-align: center">
+            <i class="fa-solid fa-calendar-check">
+              <h>&nbsp;&nbsp;ATTENDANCE</h>
+            </i>
+          </div>
+          <hr>
+          <div style="display: flex">
+            <i class="fa-solid fa-circle-info"></i>
+            <p>&nbsp;&nbsp;Attendance recording officialy commences on the first day of September.</p>
+          </div>
+          <div style="display: flex">
+            <i class="fa-solid fa-circle-info"></i>
+            <p>&nbsp;&nbsp;Class attendance updates monthly. <br>(Latest Update: 11/01/24)</p>
+          </div>
+          <div style="display: flex">
+            <i class="fa-solid fa-circle-info"></i>
+            <p>&nbsp;&nbsp;Class days may be reduced due to class suspensions, holidays, and other unforeseen circumstances.</p>
+          </div>
+          <div style="display: flex">
+            <i class="fa-solid fa-circle-exclamation" id="exclamation"></i>
+            <p>&nbsp;&nbsp;To view student attendance data, kindly select the desired month.</p>
+          </div>
+          <hr>
+
+          <div style="text-align:  center">
+            <i class="fa-solid fa-calendar" style="font-size: 20px;"></i>
+            <select id="monthSelect" onchange="selectMonth()">
+              <option disabled selected>ꜱᴇʟᴇᴄᴛ ᴀ ᴍᴏɴᴛʜ
+              </option>
+              <!--
+            <option value="Jan">January</option>
+            <option value="Feb">February</option>
+            <option value="Mar">March</option>
+            <option value="Apr">April</option>
+            <option value="May">May</option>
+            <option value="Jun">June</option>
+            <option value="Jul">July</option>
+            <option value="Aug">August</option>
+            -->
+              <option value="Sep">ꜱᴇᴘᴛᴇᴍʙᴇʀ</option>
+              <option value="Oct">ᴏᴄᴛᴏʙᴇʀ</option>
+              <option value="Nov">ɴᴏᴠᴇᴍʙᴇʀ</option>
+              <option value="Dec">ᴅᴇᴄᴇᴍʙᴇʀ</option>
+            </select>
+          </div>
+          <br>
+          <br>
+          <div id="studentList"></div>
+
+        </div>
+      </div>
+  </div>
+  </main>
+  </div>
+
+  <script src="assets/js/util.js"></script>
+  <script src="assets/js/menu-aim.js"></script>
+  <script src="assets/js/main.js"></script>
+  <script src="main.js"></script>
+
+</body>
+
+</html>

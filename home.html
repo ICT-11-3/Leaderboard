@@ -1,0 +1,142 @@
+<!Doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script>
+    document.getElementsByTagName("html")[0].className += " js";
+  </script>
+  <link rel="stylesheet" href="assets/css/style.css">
+
+  <title>ICT 11-3 | Home</title>
+
+  <link rel="icon" type="image/png" href="images/logo.png" />
+  <link rel="canonical" href="https://www.ict11-3.github.io/Home" />
+
+  <link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+
+  <link rel="stylesheet" type="text/css" href="css/util.css">
+  <link rel="stylesheet" type="text/css" href="css/main.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+
+<body>
+  <div id="Home">
+    <header class="cd-main-header js-cd-main-header">
+      <div class="cd-logo-wrapper">
+        <a href="https://ict-11-3.github.io/Home/" class="cd-logo"><img src="assets/img/logo.png" alt="Logo" height="50px" width="50px"></a>
+      </div>
+
+      <div class="cd-search js-cd-search" style="display: none">
+        <input class="reset" type="search" placeholder="Search a student..." style="display: none">
+      </div>
+
+
+      <button class="reset cd-nav-trigger js-cd-nav-trigger" aria-label="Toggle menu"><span></span></button>
+
+      <ul class="cd-nav__list js-cd-nav__list">
+        <li class="cd-nav__item cd-nav__item--has-children cd-nav__item--account js-cd-item--has-children">
+          <a href="#0">
+            <img src="images/user.png" alt="avatar">
+            <span>Account</span>
+          </a>
+
+          <ul class="cd-nav__sub-list">
+            <li class="cd-nav__sub-item"><a id="openProfileButton" onclick="ListToProfilePage()"><i class="fa-solid fa-user"></i>&nbsp;&nbsp;My Profile</a></li>
+            <li class="cd-nav__sub-item" id="logoutSymbol"><a onclick="logout()"><i class="fa-solid fa-arrow-right-from-bracket"></i>&nbsp;&nbsp;Logout</a></li>
+          </ul>
+        </li>
+      </ul>
+    </header> 
+
+    <main class="cd-main-content">
+      <nav class="cd-side-nav js-cd-side-nav">
+        <ul class="cd-side__list js-cd-side__list">
+          <li class="cd-side__label"><span>Main</span></li>
+          <li class="cd-side__item cd-side__item--has-children cd-side__item--overview js-cd-item--has-children">
+            <a href="#0">Overview</a>
+
+            <ul class="cd-side__sub-list">
+              <li class="cd-side__sub-item"><a href="https://ict-11-3.github.io/Attendance/"><i class="fa-solid fa-calendar-check"></i>&nbsp;&nbsp;&nbsp;Class Attedance</a></li>
+              <li class="cd-side__sub-item"><a href="https://ict-11-3.github.io/Leaderboard/"><i class="fa-solid fa-chart-simple"></i>&nbsp;&nbsp;Attendance Leaderboard</a></li>
+            </ul>
+          </li>
+          <li class="cd-side__item cd-side__item--has-children cd-side__item--notifications cd-side__item--selected js-cd-item--has-children">
+            <ul class="cd-side__sub-list">
+              <li class="cd-side__sub-item">
+
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+
+      <div class="cd-content-wrapper">
+        <div class="text-component text-center" style="text-align: justify" id="HomeText">
+
+          <!------ DISPLAY HOME PAGE ------>
+
+          <h1 style="text-align: center; font-weight: bold">ICT 11-3</h1>
+          <br>
+          <p style="text-align: justify">
+            Welcome to our classroom website! This website is designed to efficiently manage and monitor attendance records for the ICT 11-3 class. It provides a user-friendly interface for teachers to quickly mark attendance, generate reports, and analyze attendance patterns. Parents and students can access monthly attendance updates, ensuring transparency and accountability.
+          </p>
+          <hr>
+          <strong>KEY FEATURE</strong>
+          <br>
+          <br>
+          <div style="text-align: justify">
+        
+              <strong>Attendance Leaderboard</strong>
+              <span><p>- recognizes students with excellent attendance records. This leaderboard fosters healthy competition among students, encouraging them to strive for perfect attendance.</p></span>
+              <br>
+              <hr>
+              <strong>Benefits for Teachers</strong>
+              <br>
+              <br>
+              <strong>Time-Saving</strong>
+              <span><p>- Automated attendance tracking eliminates manual record-keeping, saving valuable time.</p></span>
+              <br>
+              <strong>Data-Driven Insights</strong>
+              <span><p>- Detailed reports help identify attendance trends, enabling teachers to take proactive measures.</p></span>
+              <br>
+              <strong>Enhanced Communication</strong>
+              <span><p>- Regular updates facilitate effective communication with parents and students regarding attendance concerns.</p></span>
+              <hr>
+              <strong>Benefits for Parents</strong>
+              <br>
+              <br>
+              <strong>Transparency</strong>
+              <span><p>- Access to monthly attendance information keeps parents informed about their child's attendance.</p></span>
+              <br>
+              <strong>Peace of Mind</strong>
+              <span><p>- Knowing their child's attendance status provides reassurance and reduces parental anxiety.</p></span>
+              <hr>
+              <strong>Benefits for Students</strong>
+              <br>
+              <br>
+              <strong>Accountability</strong>
+              <span><p>- Regular tracking promotes a sense of responsibility and punctuality.</p></span>
+              <br>
+              <strong>Improved Performance</strong>
+              <span><p>- Regular attendance is crucial for academic success.</p></span>
+              <br>
+              <strong>Empowerment</strong>
+              <span><p>- Access to their own attendance records encourages self-monitoring and goal-setting.</p></span>
+              <hr>
+              <span><p>By streamlining the attendance process and providing valuable insights, this website contributes to a more efficient and effective learning environment for all stakeholders.</p></span>
+
+          </div>
+        </div>
+      </div>
+    </main>
+  </div>
+
+  <script src="assets/js/util.js"></script>
+  <script src="assets/js/menu-aim.js"></script>
+  <script src="assets/js/main.js"></script>
+  <script src="main.js"></script>
+</body>
+
+</html>
