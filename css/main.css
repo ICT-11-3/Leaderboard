@@ -698,3 +698,7 @@ td {
 #exclamation {
   color: indianred;
 }
+#openProfileButton:hover,
+#logoutSymbol:hover {
+  cursor: pointer;
+}
