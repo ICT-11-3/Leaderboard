@@ -6,7 +6,7 @@ const students = {
     "realName": "STO. DOMINGO, ZYRUS S.",
     "schoolId": "ꜱᴛᴜᴅᴇɴᴛ",
     "sex": "male",
-    "password": "SHS-CO624-9743",
+    "password": "SHS-C0624-9743",
 
     "JanPresentDays": "0",
     "JanAbsentDays": "0",
@@ -48,7 +48,7 @@ const students = {
     "realName": "RAMBOYONG, KISHAN L.",
     "schoolId": "ꜱᴛᴜᴅᴇɴᴛ",
     "sex": "male",
-    "password": "SHS-CO624-9744",
+    "password": "SHS-C0624-9744",
 
     "JanPresentDays": "0",
     "JanAbsentDays": "0",
@@ -90,7 +90,7 @@ const students = {
     "realName": "SABERON, ASHLEY P.",
     "schoolId": "ꜱᴛᴜᴅᴇɴᴛ",
     "sex": "female",
-    "password": "SHS-CO624-",
+    "password": "SHS-C0624-",
 
     "JanPresentDays": "0",
     "JanAbsentDays": "0",
@@ -132,7 +132,7 @@ const students = {
     "realName": "SABERON, TRISHA P.",
     "schoolId": "ꜱᴛᴜᴅᴇɴᴛ",
     "sex": "female",
-    "password": "SHS-CO624-",
+    "password": "SHS-C0624-",
 
     "JanPresentDays": "0",
     "JanAbsentDays": "0",
@@ -174,7 +174,7 @@ const students = {
     "realName": "FUNGO, JHAMES ANDREW R.",
     "schoolId": "ꜱᴛᴜᴅᴇɴᴛ",
     "sex": "male",
-    "password": "SHS-CO624-9811",
+    "password": "SHS-C0624-9811",
 
     "JanPresentDays": "0",
     "JanAbsentDays": "0",
@@ -216,7 +216,7 @@ const students = {
     "realName": "FELIX, SEAN SURIO",
     "schoolId": "ꜱᴛᴜᴅᴇɴᴛ",
     "sex": "male",
-    "password": "SHS-CO624-9812",
+    "password": "SHS-C0624-9812",
 
     "JanPresentDays": "0",
     "JanAbsentDays": "0",
@@ -258,7 +258,7 @@ const students = {
     "realName": "CUYAGBO, FRINZESS NIL N.",
     "schoolId": "ꜱᴛᴜᴅᴇɴᴛ",
     "sex": "  female",
-    "password": "SHS-CO624-",
+    "password": "SHS-C0624-",
 
     "JanPresentDays": "0",
     "JanAbsentDays": "0",
@@ -300,7 +300,7 @@ const students = {
     "realName": "FERRER, STEPHANIE S.",
     "schoolId": "ꜱᴛᴜᴅᴇɴᴛ",
     "sex": "female",
-    "password": "SHS-CO624-",
+    "password": "SHS-C0624-",
 
     "JanPresentDays": "0",
     "JanAbsentDays": "0",
@@ -342,7 +342,7 @@ const students = {
     "realName": "FERRER, SHAKIRA SHANE S.",
     "schoolId": "ꜱᴛᴜᴅᴇɴᴛ",
     "sex": "female",
-    "password": "SHS-CO624-",
+    "password": "SHS-C0624-",
 
     "JanPresentDays": "0",
     "JanAbsentDays": "0",
@@ -384,7 +384,7 @@ const students = {
     "realName": "DE GUZMAN, DAISYRIE O.",
     "schoolId": "ꜱᴛᴜᴅᴇɴᴛ",
     "sex": "female",
-    "password": "SHS-CO624-",
+    "password": "SHS-C0624-",
 
     "JanPresentDays": "0",
     "JanAbsentDays": "0",
@@ -426,7 +426,7 @@ const students = {
     "realName": "FENIS, JOHN WADE P.",
     "schoolId": "ꜱᴛᴜᴅᴇɴᴛ",
     "sex": "male",
-    "password": "SHS-CO624-9902",
+    "password": "SHS-C0624-9902",
 
     "JanPresentDays": "0",
     "JanAbsentDays": "0",
@@ -468,7 +468,7 @@ const students = {
     "realName": "ENVERZO, JHARRY",
     "schoolId": "ꜱᴛᴜᴅᴇɴᴛ",
     "sex": "male",
-    "password": "SHS-CO624-9747",
+    "password": "SHS-C0624-9747",
 
     "JanPresentDays": "0",
     "JanAbsentDays": "0",
@@ -510,7 +510,7 @@ const students = {
     "realName": "MEDELLIN, ROSALLY ANN J.",
     "schoolId": "ꜱᴛᴜᴅᴇɴᴛ",
     "sex": "female",
-    "password": "SHS-CO624-",
+    "password": "SHS-C0624-",
 
     "JanPresentDays": "0",
     "JanAbsentDays": "0",
@@ -552,7 +552,7 @@ const students = {
     "realName": "ABLONG, SHAKIRA N.",
     "schoolId": "ꜱᴛᴜᴅᴇɴᴛ",
     "sex": "female",
-    "password": "SHS-CO624-9746",
+    "password": "SHS-C0624-9746",
 
     "JanPresentDays": "0",
     "JanAbsentDays": "0",
@@ -594,7 +594,7 @@ const students = {
     "realName": "RUIZ, LOWRENCE V.",
     "schoolId": "ꜱᴛᴜᴅᴇɴᴛ",
     "sex": "male",
-    "password": "SHS-CO624-9752",
+    "password": "SHS-C0624-9752",
 
     "JanPresentDays": "0",
     "JanAbsentDays": "0",
@@ -636,7 +636,7 @@ const students = {
     "realName": "SAQUING, NATHANIEL A.",
     "schoolId": "ꜱᴛᴜᴅᴇɴᴛ",
     "sex": "male",
-    "password": "SHS-CO624-9749",
+    "password": "SHS-C0624-9749",
 
     "JanPresentDays": "0",
     "JanAbsentDays": "0",
@@ -678,7 +678,7 @@ const students = {
     "realName": "MARQUEZ, MARK RAINDELL P.",
     "schoolId": "ꜱᴛᴜᴅᴇɴᴛ",
     "sex": "male",
-    "password": "SHS-CO624-9748",
+    "password": "SHS-C0624-9748",
 
     "JanPresentDays": "0",
     "JanAbsentDays": "0",
@@ -720,7 +720,7 @@ const students = {
     "realName": "ANGELLANO, RYAN CRIS M.",
     "schoolId": "ꜱᴛᴜᴅᴇɴᴛ",
     "sex": "male",
-    "password": "SHS-CO724-1289",
+    "password": "SHS-C0724-1289",
 
     "JanPresentDays": "0",
     "JanAbsentDays": "0",
@@ -762,7 +762,7 @@ const students = {
     "realName": "INTING, IVHAN P.",
     "schoolId": "ꜱᴛᴜᴅᴇɴᴛ",
     "sex": "male",
-    "password": "SHS-CO624-",
+    "password": "SHS-C0624-",
 
     "JanPresentDays": "0",
     "JanAbsentDays": "0",
@@ -804,7 +804,7 @@ const students = {
     "realName": "BAYLON, VALIRIE JOY V.",
     "schoolId": "ꜱᴛᴜᴅᴇɴᴛ",
     "sex": "female",
-    "password": "SHS-CO624-",
+    "password": "SHS-C0624-",
 
     "JanPresentDays": "0",
     "JanAbsentDays": "0",
@@ -846,7 +846,7 @@ const students = {
     "realName": "DECIO, CRISLYN M.",
     "schoolId": "ꜱᴛᴜᴅᴇɴᴛ",
     "sex": "female",
-    "password": "SHS-CO624-",
+    "password": "SHS-C0624-",
 
     "JanPresentDays": "0",
     "JanAbsentDays": "0",
@@ -888,7 +888,7 @@ const students = {
     "realName": "SELGA, JOHN BENARD M.",
     "schoolId": "ꜱᴛᴜᴅᴇɴᴛ",
     "sex": "male",
-    "password": "SHS-CO624-9887",
+    "password": "SHS-C0624-9887",
 
     "JanPresentDays": "0",
     "JanAbsentDays": "0",
@@ -930,7 +930,7 @@ const students = {
     "realName": "DE VILLA, CYRUS JAY D.",
     "schoolId": "ꜱᴛᴜᴅᴇɴᴛ",
     "sex": "male",
-    "password": "SHS-CO624-9696",
+    "password": "SHS-C0624-9696",
 
     "JanPresentDays": "0",
     "JanAbsentDays": "0",
@@ -972,7 +972,7 @@ const students = {
     "realName": "JARILLA, JOHN PAUL T.",
     "schoolId": "ꜱᴛᴜᴅᴇɴᴛ",
     "sex": "male",
-    "password": "SHS-CO624-9697",
+    "password": "SHS-C0624-9697",
 
     "JanPresentDays": "0",
     "JanAbsentDays": "0",
@@ -1014,7 +1014,7 @@ const students = {
     "realName": "MOLINA, JULIUS ROY T.",
     "schoolId": "ꜱᴛᴜᴅᴇɴᴛ",
     "sex": "male",
-    "password": "SHS-CO624-9737",
+    "password": "SHS-C0624-9737",
 
     "JanPresentDays": "0",
     "JanAbsentDays": "0",
@@ -1056,7 +1056,7 @@ const students = {
     "realName": "PADIL, JOSE ALBERTO III M.",
     "schoolId": "ꜱᴛᴜᴅᴇɴᴛ",
     "sex": "male",
-    "password": "SHS-CO724-1292",
+    "password": "SHS-C0724-1292",
 
     "JanPresentDays": "0",
     "JanAbsentDays": "0",
@@ -1098,7 +1098,7 @@ const students = {
     "realName": "BALAGUER, NHATALIA S.",
     "schoolId": "ꜱᴛᴜᴅᴇɴᴛ",
     "sex": "female",
-    "password": "SHS-CO624-",
+    "password": "SHS-C0624-",
 
     "JanPresentDays": "0",
     "JanAbsentDays": "0",
@@ -1140,7 +1140,7 @@ const students = {
     "realName": "AWS, RIZMA CASSANDRA C.",
     "schoolId": "ꜱᴛᴜᴅᴇɴᴛ",
     "sex": "female",
-    "password": "SHS-CO624-",
+    "password": "SHS-C0624-",
 
     "JanPresentDays": "0",
     "JanAbsentDays": "0",
@@ -1182,7 +1182,7 @@ const students = {
     "realName": "ARCEO, ANGEL JOY N.",
     "schoolId": "ꜱᴛᴜᴅᴇɴᴛ",
     "sex": "female",
-    "password": "SHS-CO624-",
+    "password": "SHS-C0624-",
 
     "JanPresentDays": "0",
     "JanAbsentDays": "0",
@@ -1224,7 +1224,7 @@ const students = {
     "realName": "DELFINO, CHARLES C.",
     "schoolId": "ꜱᴛᴜᴅᴇɴᴛ",
     "sex": "male",
-    "password": "SHS-CO624-9797",
+    "password": "SHS-C0624-9797",
 
     "JanPresentDays": "0",
     "JanAbsentDays": "0",
@@ -1266,7 +1266,7 @@ const students = {
     "realName": "CADAY, GRAZEL C.",
     "schoolId": "ꜱᴛᴜᴅᴇɴᴛ",
     "sex": "male",
-    "password": "SHS-CO624-9660",
+    "password": "SHS-C0624-9660",
 
     "JanPresentDays": "0",
     "JanAbsentDays": "0",
@@ -1308,7 +1308,7 @@ const students = {
     "realName": "CASTRO, JOHN LOREN M.",
     "schoolId": "ꜱᴛᴜᴅᴇɴᴛ",
     "sex": "male",
-    "password": "SHS-CO624-9667",
+    "password": "SHS-C0624-9667",
 
     "JanPresentDays": "0",
     "JanAbsentDays": "0",
@@ -1350,7 +1350,7 @@ const students = {
     "realName": "TAN, NESTOR JR S.",
     "schoolId": "ꜱᴛᴜᴅᴇɴᴛ",
     "sex": "male",
-    "password": "SHS-CO624-",
+    "password": "SHS-C0624-",
 
     "JanPresentDays": "0",
     "JanAbsentDays": "0",
@@ -1392,7 +1392,7 @@ const students = {
     "realName": "BADILLO, MIKE KRISTHON M.",
     "schoolId": "ꜱᴛᴜᴅᴇɴᴛ",
     "sex": "male",
-    "password": "SHS-CO624-9662",
+    "password": "SHS-C0624-9662",
 
     "JanPresentDays": "0",
     "JanAbsentDays": "0",
@@ -1434,7 +1434,7 @@ const students = {
     "realName": "MENESES, CHRISTIAN JOHN B.",
     "schoolId": "ꜱᴛᴜᴅᴇɴᴛ",
     "sex": "male",
-    "password": "SHS-CO624-9659",
+    "password": "SHS-C0624-9659",
 
     "JanPresentDays": "0",
     "JanAbsentDays": "0",
@@ -1476,7 +1476,7 @@ const students = {
     "realName": "DOINOG, JAYRICK M.",
     "schoolId": "ꜱᴛᴜᴅᴇɴᴛ",
     "sex": "male",
-    "password": "SHS-CO624-9929",
+    "password": "SHS-C0624-9929",
 
     "JanPresentDays": "0",
     "JanAbsentDays": "0",
@@ -1518,7 +1518,7 @@ const students = {
     "realName": "PECO, JONAS S.",
     "schoolId": "ꜱᴛᴜᴅᴇɴᴛ",
     "sex": "male",
-    "password": "SHS-CO624-9943",
+    "password": "SHS-C0624-9943",
 
     "JanPresentDays": "0",
     "JanAbsentDays": "0",
@@ -1560,7 +1560,7 @@ const students = {
     "realName": "LAGARTIJA, GEMRHAY S.",
     "schoolId": "ꜱᴛᴜᴅᴇɴᴛ",
     "sex": "male",
-    "password": "SHS-CO624-9705",
+    "password": "SHS-C0624-9705",
 
     "JanPresentDays": "0",
     "JanAbsentDays": "0",
@@ -1602,7 +1602,7 @@ const students = {
     "realName": "BALUCA, JAMES MIGUEL S.",
     "schoolId": "ꜱᴛᴜᴅᴇɴᴛ",
     "sex": "male",
-    "password": "SHS-CO624-9639",
+    "password": "SHS-C0624-9639",
 
     "JanPresentDays": "0",
     "JanAbsentDays": "0",
@@ -1644,7 +1644,7 @@ const students = {
     "realName": "PASAGUE, SHEKAINAH MAE R.",
     "schoolId": "ꜱᴛᴜᴅᴇɴᴛ",
     "sex": "female",
-    "password": "SHS-CO624-",
+    "password": "SHS-C0624-",
 
     "JanPresentDays": "0",
     "JanAbsentDays": "0",
@@ -1686,7 +1686,7 @@ const students = {
     "realName": "MONDELO, AIRA MAE B.",
     "schoolId": "ꜱᴛᴜᴅᴇɴᴛ",
     "sex": "female",
-    "password": "SHS-CO624-9609",
+    "password": "SHS-C0624-9609",
 
     "JanPresentDays": "0",
     "JanAbsentDays": "0",
@@ -1728,7 +1728,7 @@ const students = {
     "realName": "SAPLAN, JARED LEE F.",
     "schoolId": "ꜱᴛᴜᴅᴇɴᴛ",
     "sex": "male",
-    "password": "SHS-CO624-9644",
+    "password": "SHS-C0624-9644",
 
     "JanPresentDays": "0",
     "JanAbsentDays": "0",
@@ -1770,7 +1770,7 @@ const students = {
     "realName": "ALBIOS, DAVID SWAGGER D.",
     "schoolId": "ꜱᴛᴜᴅᴇɴᴛ",
     "sex": "male",
-    "password": "SHS-CO624-9907",
+    "password": "SHS-C0624-9907",
 
     "JanPresentDays": "0",
     "JanAbsentDays": "0",
@@ -1812,7 +1812,7 @@ const students = {
     "realName": "ETOMAY, JAMES BENEDICT M.",
     "schoolId": "ꜱᴛᴜᴅᴇɴᴛ",
     "sex": "male",
-    "password": "SHS-CO624-9722",
+    "password": "SHS-C0624-9722",
 
     "JanPresentDays": "0",
     "JanAbsentDays": "0",
@@ -1854,7 +1854,7 @@ const students = {
     "realName": "MAMPORTE, JUSTINE JAY D.",
     "schoolId": "ꜱᴛᴜᴅᴇɴᴛ",
     "sex": "male",
-    "password": "SHS-CO624-9891",
+    "password": "SHS-C0624-9891",
 
     "JanPresentDays": "0",
     "JanAbsentDays": "0",
@@ -1896,7 +1896,7 @@ const students = {
     "realName": "DAING, BENIDICT S.",
     "schoolId": "ꜱᴛᴜᴅᴇɴᴛ",
     "sex": "male",
-    "password": "SHS-CO624-9709",
+    "password": "SHS-C0624-9709",
 
     "JanPresentDays": "0",
     "JanAbsentDays": "0",
@@ -1938,7 +1938,7 @@ const students = {
     "realName": "ABUYA, CHRISTIAN C.",
     "schoolId": "ꜱᴛᴜᴅᴇɴᴛ",
     "sex": "male",
-    "password": "SHS-CO624-9713",
+    "password": "SHS-C0624-9713",
 
     "JanPresentDays": "0",
     "JanAbsentDays": "0",
@@ -1980,7 +1980,7 @@ const students = {
     "realName": "CELESTE, MARCUS ANTONIO D.",
     "schoolId": "ꜱᴛᴜᴅᴇɴᴛ",
     "sex": "male",
-    "password": "SHS-CO624-9712",
+    "password": "SHS-C0624-9712",
 
     "JanPresentDays": "0",
     "JanAbsentDays": "0",
@@ -2022,7 +2022,7 @@ const students = {
     "realName": "ORTILE, MHORS RADEN G.",
     "schoolId": "ꜱᴛᴜᴅᴇɴᴛ",
     "sex": "male",
-    "password": "SHS-CO624-9830",
+    "password": "SHS-C0624-9830",
 
     "JanPresentDays": "0",
     "JanAbsentDays": "0",
@@ -2064,7 +2064,7 @@ const students = {
     "realName": "FLORENTINO, MARK LAWRENCE H.",
     "schoolId": "ꜱᴛᴜᴅᴇɴᴛ",
     "sex": "male",
-    "password": "SHS-CO624-9883",
+    "password": "SHS-C0624-9883",
 
     "JanPresentDays": "0",
     "JanAbsentDays": "0",
