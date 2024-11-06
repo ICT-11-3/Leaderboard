@@ -1350,7 +1350,7 @@ const students = {
     "realName": "TAN, NESTOR JR S.",
     "schoolId": "ꜱᴛᴜᴅᴇɴᴛ",
     "sex": "male",
-    "password": "SHS-C0624-",
+    "password": "SHS-C0624-9692",
 
     "JanPresentDays": "0",
     "JanAbsentDays": "0",
