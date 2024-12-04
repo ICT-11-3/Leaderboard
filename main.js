@@ -38,7 +38,7 @@ const students = {
     "OctPresentDays": "9",
     "OctAbsentDays": "1",
 
-    "NovPresentDays": "0",
+    "NovPresentDays": "7",
     "NovAbsentDays": "0",
 
     "DecPresentDays": "0",
@@ -80,7 +80,7 @@ const students = {
     "OctPresentDays": "8",
     "OctAbsentDays": "2",
 
-    "NovPresentDays": "0",
+    "NovPresentDays": "7",
     "NovAbsentDays": "0",
 
     "DecPresentDays": "0",
@@ -122,7 +122,7 @@ const students = {
     "OctPresentDays": "10",
     "OctAbsentDays": "0",
 
-    "NovPresentDays": "0",
+    "NovPresentDays": "7",
     "NovAbsentDays": "0",
 
     "DecPresentDays": "0",
@@ -164,7 +164,7 @@ const students = {
     "OctPresentDays": "10",
     "OctAbsentDays": "0",
 
-    "NovPresentDays": "0",
+    "NovPresentDays": "7",
     "NovAbsentDays": "0",
 
     "DecPresentDays": "0",
@@ -206,7 +206,7 @@ const students = {
     "OctPresentDays": "10",
     "OctAbsentDays": "0",
 
-    "NovPresentDays": "0",
+    "NovPresentDays": "7",
     "NovAbsentDays": "0",
 
     "DecPresentDays": "0",
@@ -248,7 +248,7 @@ const students = {
     "OctPresentDays": "10",
     "OctAbsentDays": "0",
 
-    "NovPresentDays": "0",
+    "NovPresentDays": "7",
     "NovAbsentDays": "0",
 
     "DecPresentDays": "0",
@@ -290,7 +290,7 @@ const students = {
     "OctPresentDays": "10",
     "OctAbsentDays": "0",
 
-    "NovPresentDays": "0",
+    "NovPresentDays": "7",
     "NovAbsentDays": "0",
 
     "DecPresentDays": "0",
@@ -332,7 +332,7 @@ const students = {
     "OctPresentDays": "10",
     "OctAbsentDays": "0",
 
-    "NovPresentDays": "0",
+    "NovPresentDays": "7",
     "NovAbsentDays": "0",
 
     "DecPresentDays": "0",
@@ -374,7 +374,7 @@ const students = {
     "OctPresentDays": "10",
     "OctAbsentDays": "0",
 
-    "NovPresentDays": "0",
+    "NovPresentDays": "7",
     "NovAbsentDays": "0",
 
     "DecPresentDays": "0",
@@ -416,7 +416,7 @@ const students = {
     "OctPresentDays": "10",
     "OctAbsentDays": "0",
 
-    "NovPresentDays": "0",
+    "NovPresentDays": "7",
     "NovAbsentDays": "0",
 
     "DecPresentDays": "0",
@@ -458,7 +458,7 @@ const students = {
     "OctPresentDays": "10",
     "OctAbsentDays": "0",
 
-    "NovPresentDays": "0",
+    "NovPresentDays": "7",
     "NovAbsentDays": "0",
 
     "DecPresentDays": "0",
@@ -500,7 +500,7 @@ const students = {
     "OctPresentDays": "8",
     "OctAbsentDays": "2",
 
-    "NovPresentDays": "0",
+    "NovPresentDays": "7",
     "NovAbsentDays": "0",
 
     "DecPresentDays": "0",
@@ -542,7 +542,7 @@ const students = {
     "OctPresentDays": "10",
     "OctAbsentDays": "0",
 
-    "NovPresentDays": "0",
+    "NovPresentDays": "7",
     "NovAbsentDays": "0",
 
     "DecPresentDays": "0",
@@ -584,7 +584,7 @@ const students = {
     "OctPresentDays": "9",
     "OctAbsentDays": "1",
 
-    "NovPresentDays": "0",
+    "NovPresentDays": "7",
     "NovAbsentDays": "0",
 
     "DecPresentDays": "0",
@@ -626,7 +626,7 @@ const students = {
     "OctPresentDays": "10",
     "OctAbsentDays": "0",
 
-    "NovPresentDays": "0",
+    "NovPresentDays": "7",
     "NovAbsentDays": "0",
 
     "DecPresentDays": "0",
@@ -668,7 +668,7 @@ const students = {
     "OctPresentDays": "10",
     "OctAbsentDays": "0",
 
-    "NovPresentDays": "0",
+    "NovPresentDays": "7",
     "NovAbsentDays": "0",
 
     "DecPresentDays": "0",
@@ -710,7 +710,7 @@ const students = {
     "OctPresentDays": "10",
     "OctAbsentDays": "0",
 
-    "NovPresentDays": "0",
+    "NovPresentDays": "7",
     "NovAbsentDays": "0",
 
     "DecPresentDays": "0",
@@ -752,7 +752,7 @@ const students = {
     "OctPresentDays": "10",
     "OctAbsentDays": "0",
 
-    "NovPresentDays": "0",
+    "NovPresentDays": "7",
     "NovAbsentDays": "0",
 
     "DecPresentDays": "0",
@@ -794,8 +794,8 @@ const students = {
     "OctPresentDays": "6",
     "OctAbsentDays": "4",
 
-    "NovPresentDays": "0",
-    "NovAbsentDays": "0",
+    "NovPresentDays": "5",
+    "NovAbsentDays": "2",
 
     "DecPresentDays": "0",
     "DecAbsentDays": "0",
@@ -836,7 +836,7 @@ const students = {
     "OctPresentDays": "10",
     "OctAbsentDays": "0",
 
-    "NovPresentDays": "0",
+    "NovPresentDays": "7",
     "NovAbsentDays": "0",
 
     "DecPresentDays": "0",
@@ -878,7 +878,7 @@ const students = {
     "OctPresentDays": "10",
     "OctAbsentDays": "10",
 
-    "NovPresentDays": "0",
+    "NovPresentDays": "7",
     "NovAbsentDays": "0",
 
     "DecPresentDays": "0",
@@ -920,7 +920,7 @@ const students = {
     "OctPresentDays": "10",
     "OctAbsentDays": "0",
 
-    "NovPresentDays": "0",
+    "NovPresentDays": "7",
     "NovAbsentDays": "0",
 
     "DecPresentDays": "0",
@@ -962,7 +962,7 @@ const students = {
     "OctPresentDays": "10",
     "OctAbsentDays": "0",
 
-    "NovPresentDays": "0",
+    "NovPresentDays": "7",
     "NovAbsentDays": "0",
 
     "DecPresentDays": "0",
@@ -1004,8 +1004,8 @@ const students = {
     "OctPresentDays": "8",
     "OctAbsentDays": "2",
 
-    "NovPresentDays": "0",
-    "NovAbsentDays": "0",
+    "NovPresentDays": "5",
+    "NovAbsentDays": "2",
 
     "DecPresentDays": "0",
     "DecAbsentDays": "0",
@@ -1046,7 +1046,7 @@ const students = {
     "OctPresentDays": "9",
     "OctAbsentDays": "1",
 
-    "NovPresentDays": "0",
+    "NovPresentDays": "7",
     "NovAbsentDays": "0",
 
     "DecPresentDays": "0",
@@ -1088,7 +1088,7 @@ const students = {
     "OctPresentDays": "10",
     "OctAbsentDays": "0",
 
-    "NovPresentDays": "0",
+    "NovPresentDays": "7",
     "NovAbsentDays": "0",
 
     "DecPresentDays": "0",
@@ -1130,7 +1130,7 @@ const students = {
     "OctPresentDays": "10",
     "OctAbsentDays": "0",
 
-    "NovPresentDays": "0",
+    "NovPresentDays": "7",
     "NovAbsentDays": "0",
 
     "DecPresentDays": "0",
@@ -1172,7 +1172,7 @@ const students = {
     "OctPresentDays": "10",
     "OctAbsentDays": "0",
 
-    "NovPresentDays": "0",
+    "NovPresentDays": "7",
     "NovAbsentDays": "0",
 
     "DecPresentDays": "0",
@@ -1214,7 +1214,7 @@ const students = {
     "OctPresentDays": "9",
     "OctAbsentDays": "1",
 
-    "NovPresentDays": "0",
+    "NovPresentDays": "7",
     "NovAbsentDays": "0",
 
     "DecPresentDays": "0",
@@ -1256,7 +1256,7 @@ const students = {
     "OctPresentDays": "9",
     "OctAbsentDays": "1",
 
-    "NovPresentDays": "0",
+    "NovPresentDays": "7",
     "NovAbsentDays": "0",
 
     "DecPresentDays": "0",
@@ -1298,7 +1298,7 @@ const students = {
     "OctPresentDays": "10",
     "OctAbsentDays": "0",
 
-    "NovPresentDays": "0",
+    "NovPresentDays": "7",
     "NovAbsentDays": "0",
 
     "DecPresentDays": "0",
@@ -1340,7 +1340,7 @@ const students = {
     "OctPresentDays": "9",
     "OctAbsentDays": "1",
 
-    "NovPresentDays": "0",
+    "NovPresentDays": "7",
     "NovAbsentDays": "0",
 
     "DecPresentDays": "0",
@@ -1382,7 +1382,7 @@ const students = {
     "OctPresentDays": "10",
     "OctAbsentDays": "0",
 
-    "NovPresentDays": "0",
+    "NovPresentDays": "7",
     "NovAbsentDays": "0",
 
     "DecPresentDays": "0",
@@ -1424,7 +1424,7 @@ const students = {
     "OctPresentDays": "6",
     "OctAbsentDays": "4",
 
-    "NovPresentDays": "0",
+    "NovPresentDays": "7",
     "NovAbsentDays": "0",
 
     "DecPresentDays": "0",
@@ -1466,7 +1466,7 @@ const students = {
     "OctPresentDays": "10",
     "OctAbsentDays": "0",
 
-    "NovPresentDays": "0",
+    "NovPresentDays": "7",
     "NovAbsentDays": "0",
 
     "DecPresentDays": "0",
@@ -1508,7 +1508,7 @@ const students = {
     "OctPresentDays": "8",
     "OctAbsentDays": "2",
 
-    "NovPresentDays": "0",
+    "NovPresentDays": "7",
     "NovAbsentDays": "0",
 
     "DecPresentDays": "0",
@@ -1550,7 +1550,7 @@ const students = {
     "OctPresentDays": "9",
     "OctAbsentDays": "1",
 
-    "NovPresentDays": "0",
+    "NovPresentDays": "7",
     "NovAbsentDays": "0",
 
     "DecPresentDays": "0",
@@ -1592,7 +1592,7 @@ const students = {
     "OctPresentDays": "10",
     "OctAbsentDays": "0",
 
-    "NovPresentDays": "0",
+    "NovPresentDays": "7",
     "NovAbsentDays": "0",
 
     "DecPresentDays": "0",
@@ -1634,7 +1634,7 @@ const students = {
     "OctPresentDays": "10",
     "OctAbsentDays": "0",
 
-    "NovPresentDays": "0",
+    "NovPresentDays": "7",
     "NovAbsentDays": "0",
 
     "DecPresentDays": "0",
@@ -1676,7 +1676,7 @@ const students = {
     "OctPresentDays": "10",
     "OctAbsentDays": "0",
 
-    "NovPresentDays": "0",
+    "NovPresentDays": "7",
     "NovAbsentDays": "0",
 
     "DecPresentDays": "0",
@@ -1718,7 +1718,7 @@ const students = {
     "OctPresentDays": "10",
     "OctAbsentDays": "0",
 
-    "NovPresentDays": "0",
+    "NovPresentDays": "7",
     "NovAbsentDays": "0",
 
     "DecPresentDays": "0",
@@ -1760,7 +1760,7 @@ const students = {
     "OctPresentDays": "9",
     "OctAbsentDays": "1",
 
-    "NovPresentDays": "0",
+    "NovPresentDays": "7",
     "NovAbsentDays": "0",
 
     "DecPresentDays": "0",
@@ -1802,7 +1802,7 @@ const students = {
     "OctPresentDays": "10",
     "OctAbsentDays": "0",
 
-    "NovPresentDays": "0",
+    "NovPresentDays": "7",
     "NovAbsentDays": "0",
 
     "DecPresentDays": "0",
@@ -1844,7 +1844,7 @@ const students = {
     "OctPresentDays": "10",
     "OctAbsentDays": "0",
 
-    "NovPresentDays": "0",
+    "NovPresentDays": "7",
     "NovAbsentDays": "0",
 
     "DecPresentDays": "0",
@@ -1886,7 +1886,7 @@ const students = {
     "OctPresentDays": "10",
     "OctAbsentDays": "0",
 
-    "NovPresentDays": "0",
+    "NovPresentDays": "7",
     "NovAbsentDays": "0",
 
     "DecPresentDays": "0",
@@ -1928,7 +1928,7 @@ const students = {
     "OctPresentDays": "10",
     "OctAbsentDays": "0",
 
-    "NovPresentDays": "0",
+    "NovPresentDays": "7",
     "NovAbsentDays": "0",
 
     "DecPresentDays": "0",
@@ -1970,7 +1970,7 @@ const students = {
     "OctPresentDays": "9",
     "OctAbsentDays": "1",
 
-    "NovPresentDays": "0",
+    "NovPresentDays": "7",
     "NovAbsentDays": "0",
 
     "DecPresentDays": "0",
@@ -2012,7 +2012,7 @@ const students = {
     "OctPresentDays": "9",
     "OctAbsentDays": "1",
 
-    "NovPresentDays": "0",
+    "NovPresentDays": "7",
     "NovAbsentDays": "0",
 
     "DecPresentDays": "0",
@@ -2054,8 +2054,8 @@ const students = {
     "OctPresentDays": "9",
     "OctAbsentDays": "1",
 
-    "NovPresentDays": "0",
-    "NovAbsentDays": "0",
+    "NovPresentDays": "6",
+    "NovAbsentDays": "1",
 
     "DecPresentDays": "0",
     "DecAbsentDays": "0",
@@ -2096,7 +2096,7 @@ const students = {
     "OctPresentDays": "9",
     "OctAbsentDays": "1",
 
-    "NovPresentDays": "0",
+    "NovPresentDays": "7",
     "NovAbsentDays": "0",
 
     "DecPresentDays": "0",
